@@ -1,9 +1,11 @@
 const http = require ("http");
+
+const ports = 3000;
 const server=http.createServer((req ,res) =>{
-    res.end("Hello Vaishali");
+    res.end("Hello Vaishali & asutosh");
 });
 
-server.listen (3000,()=>{
+server.listen (ports,()=>{
     console.log("server is running protaol 3000")
 })
 
